@@ -1,0 +1,59 @@
+# pubspec.yaml
+name: bookstore
+description: A Flutter bookstore app for discovering and exploring books.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  flutter_riverpod: ^2.5.1
+
+  # Supabase
+  supabase_flutter: ^2.5.6
+
+  # Navigation
+  go_router: ^14.2.0
+
+  # UI Components
+  cached_network_image: ^3.3.1
+  flutter_staggered_grid_view: ^0.7.0
+
+  # Icons
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+
+# Font configuration
+flutter:
+  uses-material-design: true
+
+  # Add your Coolvetica font files here
+  fonts:
+    - family: Coolvetica
+      fonts:
+        - asset: assets/fonts/coolvetica_rg.otf
+          weight: 400
+        # Add more font weights as needed
+
+  # Add your logo and other assets here
+  assets:
+    - assets/images/
+    - assets/fonts/
+
+# Flutter Launcher Icons configuration
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/app_icon.png"
+  adaptive_icon_background: "#5D4037"
+  adaptive_icon_foreground: "assets/images/app_icon_foreground.png"
