@@ -1,16 +1,9 @@
-# bookstore
+This is the final project for vic.enp masterclass
+ How to Install Bookstore App:
 
-final project for masterclass
+1. Click the link:https://www.dropbox.com/scl/fi/tofyvjx4y36xu7qtxj8vi/book-app.apk?rlkey=ygsazswhhhgjxywz2tm3flo6p&st=jao4icft&dl=0
+2. Download the APK file to your phone
+3. Go to Settings > Security > Unknown Sources (enable this)
+4. Find the downloaded APK in Downloads folder
+5. Tap it and click "Install"
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
